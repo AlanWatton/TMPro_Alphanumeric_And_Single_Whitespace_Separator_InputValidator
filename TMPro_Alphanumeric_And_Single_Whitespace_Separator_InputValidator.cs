@@ -1,3 +1,8 @@
+using System;
+using TMPro;
+using UnityEngine;
+
+
 [Serializable]
 [CreateAssetMenu(fileName = "InputValidator - Alphanumeric with Single Whitespace Separators", menuName = "TextMeshPro/Input Validators/Alphanumeric with Single Whitespace Separators", order = 100)]
 public class TMPro_Alphanumeric_And_Single_Whitespace_Separator_InputValidator : TMP_InputValidator
